@@ -1,0 +1,1 @@
+{"cacheMapList":[{"state":0,"downloadPath":"Assets/InsightARWorld/UserContent/Maps/2855","mapId":2855,"name":"盗墓笔记-F5IMAX","gmtModified":1666321163000,"resourceList":"[{\"type\":\"6\",\"resourceUrl\":\"https://ar-scene-source.nosdn.127.net/mapRes/b2991becc1824b2aa435347ce244244f.zip\",\"gmtModified\":\"1666698702000\"}]"}]}
