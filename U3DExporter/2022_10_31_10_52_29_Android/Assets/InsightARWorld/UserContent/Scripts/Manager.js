@@ -20,7 +20,7 @@ Manager.prototype = Object.assign(Object.create(Object.prototype), {
         realTime = 0;
         nowTime = 0;
         tempFunction = new Object;
-        //hashcode = new Object;
+        hashcode = new Object;
         //
         welcome = Insight.GameObject.Find("welcome");
         hint = Insight.GameObject.Find("Hint");
@@ -32,7 +32,7 @@ Manager.prototype = Object.assign(Object.create(Object.prototype), {
         this.Timer();
         //
         if (isWaiting) {
-            this.WaitTime();
+            this.WaitTime()
         }
 
     },
@@ -70,7 +70,7 @@ Manager.prototype = Object.assign(Object.create(Object.prototype), {
         Text = hint.transform.getChild(0).gameObject.getComponent("Text", 0);
         //temp = Insight.DOTween.DOText(Text, text, 4);
         //print(temp);
-        //temp.onComplete();,l
+        //temp.onComplete();
         //print(text + " " + Text);
         //pp = this.haha.bind(this);
 

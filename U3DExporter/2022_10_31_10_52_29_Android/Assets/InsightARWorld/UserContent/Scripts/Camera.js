@@ -19,7 +19,7 @@ Camera.prototype = Object.assign(Object.create(Object.prototype), {
         
     },
     OnTriggerEnter: function (other) {
-        print(other.name.replace("Cube",""));
+        //print(other.name.replace("Cube",""));
         barier.transform.getChild(other.name.replace("Cube", "")).gameObject.setActive(true);
         hint.transform.getChild(0).gameObject.getComponent("Text",0).text = "点击这个方块！";
     },
